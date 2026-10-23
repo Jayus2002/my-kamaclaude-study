@@ -1,0 +1,18 @@
+# Python 与虚拟环境
+.venv/
+__pycache__/
+*.py[cod]
+
+# 本地密钥，保留无凭据的示例配置
+.env
+.env.*
+!.env.example
+
+# 开发缓存
+.pytest_cache/
+.ruff_cache/
+
+# 本项目运行数据与实验目录
+/data/
+/workspace/
+/sandbox/
