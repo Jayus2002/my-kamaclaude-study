@@ -1,0 +1,4 @@
+model = "example-model"
+max_steps = 1
+workspace = "."
+data_dir = "./data"
