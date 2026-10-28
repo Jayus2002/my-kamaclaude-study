@@ -122,7 +122,7 @@ my-kamaclaude: error: Error loading configuration: Unrecognised argument(s): enc
 切换终端位置不应被误认为授予工具新的访问权限，也不应把运行日志随意混入待处理材料。
 
 **为什么 workspace 不自动创建，而 data_dir 可以？** workspace 不存在通常表示输入路径有误，应及时提示；data_dir 是程序输出位置，首次启动时允许创建。
-
+**为什么使用env_name, field_name in env_fields.items()读取环境变量?** 1方便pydantic 映射 2解耦代码
 ## 验收
 
 | 项目 | 当前证据 / 待补内容 |
@@ -145,4 +145,4 @@ my-kamaclaude: error: Error loading configuration: Unrecognised argument(s): enc
 
 ## 对应提交
 
-待学习者自行审查并提交。本次仅编辑文档，未创建 Git 提交，也未勾选学习计划进度。
+已提交
